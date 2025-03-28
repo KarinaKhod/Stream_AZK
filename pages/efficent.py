@@ -7,7 +7,6 @@ import torchvision.transforms as transforms
 import time
 
 st.set_page_config(page_title="EfficientNet Классификация", layout="wide")
-# Названия классов — замени при необходимости
 class_names = ['benign', 'malignant']
 
 @st.cache_resource
